@@ -1,0 +1,29 @@
+.task {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  cursor: pointer;
+  border: 5px solid white;
+}
+
+.default {
+  border-color: white;
+}
+
+.highPriority {
+  background: #fba675;
+}
+
+.through {
+  text-decoration: line-through;
+  text-decoration-color: white;
+  -moz-text-decoration-color: white;
+}
+
+.noThrough {
+  text-decoration: none;
+}
+
+.selected {
+  border-color: blue;
+}
